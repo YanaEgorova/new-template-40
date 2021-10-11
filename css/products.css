@@ -1,0 +1,114 @@
+.products__wrapper {
+    background-color: var(--second-brand-color);
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='50px' width='120px'><text x='0' y='15' fill='skyblue' font-size='10'>Buy Online ♡</text></svg>");
+}
+.products {
+    text-align: center;
+    padding: 15rem 0 20rem;
+}
+.sub-title__box {
+    position: relative;
+    margin-bottom: 3rem;
+}
+.prod__title {
+    font-size: 5rem;
+    margin-bottom: 4rem;
+    font-family: var(--title-font);
+}
+.success-message {
+    background-color: var(--success);
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    visibility: hidden;
+    margin-bottom: 2rem;
+}
+.success-message--active {
+    opacity: 1;
+    visibility: visible;
+}
+.products .sub-title {
+    margin-bottom: 0;
+    padding-bottom: 7rem;
+}
+.products .item {
+    margin-top: 4.5rem;
+    position: relative;
+}
+.product__block {
+    max-width: 40rem;
+    padding: .5rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.product {
+    display: block;
+    margin-bottom: 1rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.product__text-box {
+    position: relative;
+}
+.product__img-box {
+    border-radius: 20rem 20rem 0 0;
+    padding: 7rem 0;
+    background-color: var(--first-brand-color);
+    border-bottom: 1rem solid var(--second-brand-color);
+}
+.product .img {
+    width: 95%;
+    max-height: 20rem;
+    object-fit: contain;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+.product__name {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+.product__price {
+    display: block;
+    font-size: 2rem;
+    font-family: var(--title-font);
+}
+.product__text-box {
+    padding: 3rem 0 10rem;
+    background-color: var(--third-brand-color);
+    border-radius: 0 0 2rem 2rem;
+}
+.product__btn {
+    position: absolute;
+    left: 50%;
+    bottom: 3rem;
+    transform: translate(-50%, 0);
+    width: 90%;
+    border-radius: 1rem;
+}
+@media screen and (min-width: 768px) {  
+    .products__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .products__list .item {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1440px) {  
+
+}
+
