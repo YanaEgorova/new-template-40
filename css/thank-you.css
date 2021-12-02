@@ -1,0 +1,8 @@
+.thank-you {
+    padding: 35rem 0;
+    text-align: center;
+}
+.thank-you .block {
+    max-width: 60rem;
+    margin: 0 auto;
+}

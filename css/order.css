@@ -46,6 +46,19 @@
     text-align: left;
     font-size: 1.8rem;
     margin-bottom: 2.5rem;
+    position: relative;
+}
+
+.error-span {
+    font-size: 1.3rem;
+    color: var(--accent-color);
+    position: absolute;
+    bottom: -2rem;
+    left: 1rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }
 ::-webkit-input-placeholder {
     color: var(--main-text-color);

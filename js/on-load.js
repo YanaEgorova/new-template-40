@@ -8,18 +8,18 @@ const totalQuantity = document.querySelector('.js_total-quantity');
 const totalPrice = document.querySelectorAll('.js_total-price');
 const emptyMessage = document.querySelector('.js_empty-cart');
 const table = document.querySelector('.js_product-table');
-const submitFormButton = document.querySelector('.js_form-submit-btn');
+// const submitFormButton = document.querySelector('.js_form-submit-btn');
 
-if(submitFormButton ) {
-   submitFormButton.addEventListener('click', submitForm);
-}
+// if(submitFormButton ) {
+//    submitFormButton.addEventListener('click', submitForm);
+// }
 
 
 
-function submitForm(e) {
-   e.preventDefault();
-   localStorage.clear();
-}
+// function submitForm(e) {
+//    e.preventDefault();
+//    localStorage.clear();
+// }
 
 
 
