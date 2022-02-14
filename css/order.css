@@ -160,7 +160,7 @@ option {
     visibility: hidden;
 }
 .checkbox-input:checked+.checkbox-label::before {
-    background-color: var(--first-brand-color);
+    background-color: var(--main-text-color);
 }
 .checkbox-label::before {
     display: block;
