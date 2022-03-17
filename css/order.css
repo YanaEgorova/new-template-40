@@ -175,7 +175,25 @@ option {
     background-color: var(--main-bg-color);
     transition: all .3s ease-in-out;
 }
-
+.accept__box {
+    padding: 1rem 0;
+    text-align: left;
+}
+.accept__box .text {
+    margin-bottom: 1rem;
+}
+.accept__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 33rem;
+}
+.accept__img {
+    display: block;
+    width: 10rem;
+    height: 8rem;
+    object-fit: contain;
+}
 @media screen and (min-width: 768px)  {
     .orders__table td, .orders__table th {
         padding: 2rem;
@@ -201,10 +219,16 @@ option {
     .orders__table-title {
         font-size: 2.4rem;
     }
-    /* .orders__btn:hover svg {
-        fill: var(--first-brand-color);
+    .accept__box {
+        display: flex;
+        align-items: center;
     }
-    .orders__btn:hover {
-        color: var(--first-brand-color);
-    } */
+    .accept__box .text {
+        margin-bottom: 0;
+        margin-right: 5rem;
+    }
+    .accept__list {
+        flex-grow: 1;
+        max-width: 33rem;
+    }
 }
