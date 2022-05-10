@@ -4,6 +4,7 @@ export const products = [
         name: 'Yarn Bowl',
         price: 6.96,
         image: './img/img1.png',
+        type: 'ss',
         description: [
             {
                 text: 'Is it a project bag? A yarn bowl? It\'s both!',
@@ -28,6 +29,7 @@ export const products = [
         name: 'Leg Cast Cover',
         price: 29.99,
         image: './img/img2.png',
+        type: 'trial',
         description: [
             {
                 text: 'Ideal for the WATERTIGHT PROTECTION of casts, bandages, rashes, abrasions, burns, cuts, wounds, IV & PICC Lines.',
@@ -52,6 +54,7 @@ export const products = [
         name: '6-Light Chandelier',
         price: 64.90,
         image: './img/img3.png',
+        type: 'ss',
         description: [
             {
                 title: 'Classic Meets Contemporary',
@@ -81,6 +84,7 @@ export const products = [
         name: 'Moisture Meter',
         price: 98.90,
         image: './img/img4.png',
+        type: 'ss',
         description: [
             {
                 title: 'Measures',
@@ -114,6 +118,7 @@ export const products = [
         name: 'Portable Folding Camp Kitchen',
         price: 119.98,
         image: './img/img5.png',
+        type: 'ss',
         description: [
             {
                 title: 'Folding Camping Table',
@@ -143,6 +148,7 @@ export const products = [
         name: 'ADF Helmet',
         price: 148.00,
         image: './img/img6.png',
+        type: 'ss',
         description: [
             {
                 text: 'Adjustable ratchet head band to custom fit your head and absorbent.',
