@@ -30,6 +30,7 @@ export const products = [
         price: 29.99,
         image: './img/img2.png',
         type: 'trial',
+        full_price: 198.98,
         description: [
             {
                 text: 'Ideal for the WATERTIGHT PROTECTION of casts, bandages, rashes, abrasions, burns, cuts, wounds, IV & PICC Lines.',
